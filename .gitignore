@@ -1,0 +1,25 @@
+# ── Clés API & secrets ────────────────────────────────────────────
+.env
+.env.local
+
+# ── HTML Booking bruts (volumieux, non versionnés) ────────────────
+data/raw_booking_html/
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ── Environnements virtuels ───────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Node ──────────────────────────────────────────────────────────
+node_modules/
